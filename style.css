@@ -1,12 +1,12 @@
 @charset "UTF-8";
 
-body{width: 100vw;
+body{width: 98vw;
 margin: 0px 0px 0px 0px;}
 
 header{
         background-color: #6D412A;
-        width: 100%;
-        margin: 0px;
+        width: 98vw;
+        margin: 0px 0px 0px 0px;
 
 }
 header > h1{
@@ -15,21 +15,98 @@ header > h1{
 }
 
 header > h1 > img{
-        width: 40vw;
+        width: 30vw;
 }
 
 nav{
         background-color: #533220;
-        width: 100vw;
+        width: 98vw;
+        height: 50px;
+        margin-bottom: 0px;
+        margin-right: 0px;
 }
 
 nav > div > p{
         display: inline-block;
-        margin: 3% 7%;
+        margin: 1% 5% 0% 5%;
         color: #CDAC79;
-        font-size: calc(3px + 1vw);}
+        font-size: 16px;}
 
-nav > div{margin: 0px 0%;}
+
+
+.primeironav{display: inline-block;
+        margin: 0% 5%;
+        color: #CDAC79;
+        font-size: 16px;
+margin-left: 18%;}
+
+nav > div{margin: 0px;}
+
+.quemsomos{
+        background-image: url(Imagens/quemsomosfundo.png);
+        background-size: cover;
+        height:525px;
+        width: 98vw;
+        margin-top: 0px;
+        margin-right: 0px;
+        display:inline-block;
+
+        
+}
+
+.quemsomostexto{
+        width: 407px;
+        height: 400px;
+        margin: 30px 0px 20px 100px;
+        background-color: #CDAC79;
+        padding: 15px;
+        border-color: #864A2B;
+        border-width: 16px;
+border-style: solid;}
+
+.quemsomostitulo{
+        font-size: 32.98px;
+        margin-bottom: 0px;
+        color:#3B2316 ;
+}
+
+.quemsomosparagrafo{
+        font-size: 19px;
+        color: black;
+
+}
+
+.cafes{height: 542px;
+        width: 98vw;
+        background-image: url(Imagens/cafes.png);
+        background-size:cover;
+        display: inline-block;}
+
+.nossoscafes{background-color: #5D3723;
+width: 343px;
+height: 53px;
+padding-top: 18px;
+text-align: center;
+position: relative;
+left: 38%;
+margin-top: 30px;
+font-size: 30px;
+color: #EBC58C;}
+
+.cafesdivs{display: inline-block;
+margin-right: 200px;
+margin-top: 30px;}
+
+.nomecafe{font-size: 25px;
+color: #EBC58C;
+text-align: center;
+}
+
+.alinharcafesdivs{display: inline-block;
+        position: relative;
+left: 320px;}
+
+.imagemcafe{width: 100%;}
 
 
 
