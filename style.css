@@ -1,279 +1,290 @@
 @charset "UTF-8";
 
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
 
+*{margin: 0%;}
 
-
-body{width: 98vw;
-margin: 0px 0px 0px 0px;}
+body{background-color: #5D3723;}
 
 header{
-        background-color: #6D412A;
-        width: 98vw;
-        margin: 0px 0px 0px 0px;
+    width: 100%;
+    height: 300px;
+    background-color: #6D412A;
 
 }
+
 header > h1{
-        text-align: center ;
-        margin: 0px ;
+    text-align: center ;
+    margin: 0px ;
 }
 
 header > h1 > img{
-        width: 30vw;
+    width: 30vw;
 }
 
 nav{
-        background-color: #533220;
-        width: 98vw;
-        height: 50px;
-        margin-bottom: 0px;
-        margin-right: 0px;
+    background-color: #533220;
+    width: 100%;
+    height: 50px;
+    margin-bottom: 0px;
+    margin-right: 0px;
 }
 
 nav > div > p{
-        display: inline-block;
-        margin: 1% 5% 0% 5%;
-        color: #CDAC79;
-        font-size: 16px;
-        font-family: 'Open Sans', sans-serif;}
+    display: inline-block;
+    margin: 1% 5% 0% 5%;
+    color: #CDAC79;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;}
 
 
 
 .primeironav{display: inline-block;
-        margin: 0% 5%;
-        color: #CDAC79;
-        font-size: 16px;
+    margin: 0% 5%;
+    color: #CDAC79;
+    font-size: 16px;
 margin-left: 18%;}
 
 nav > div{margin: 0px;}
 
-.quemsomos{
-        background-image: url(Imagens/quemsomosfundo.png);
-        background-size: cover;
-        height:525px;
-        width: 98vw;
-        margin-top: 0px;
-        margin-right: 0px;
-        display:inline-block;
+#quemsomos{
+    width: 100%;
+    background-image:url(Imagens/quemsomosfundo.png);
+    height:525px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 0px;
 
-        
 }
 
 .quemsomostexto{
-        width: 407px;
-        height: 400px;
-        margin: 30px 0px 20px 100px;
-        background-color: #CDAC79;
-        padding: 15px;
-        border-color: #57301d;
-        border-width: 16px;
-        border-style: solid;
-        font-family: 'Ruda', sans-serif;}
+    position: relative;
+    top: 6%;
+    width: 407px;
+    height: 400px;
+    margin: 0px 0px 20px 100px;
+    background-color: #CDAC79;
+    padding: 15px;
+    border-color: #57301d;
+    border-width: 16px;
+    border-style: solid;
+    font-family: 'Ruda', sans-serif;}
 
 .quemsomostitulo{
-        font-size: 32.98px;
-        margin-bottom: 0px;
-        color:#3B2316 ;
+    font-size: 32.98px;
+    margin-bottom: 0px;
+    color:#3B2316 ;
 }
 
 .quemsomosparagrafo{
-        font-size: 16px;
-        color: black;
+    font-size: 16px;
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+#cafes{
+    width: 100%;
+    background-image:url(Imagens/cafes.png);
+    height:542px;
+    background-size: cover;
+    background-repeat: no-repeat;}
+
+    .nossoscafes{background-color: #5d3723a9;
+        width: 343px;
+        height: 53px;
+        padding-top: 18px;
+        text-align: center;
+        position: relative;
+        left: 38%;
+        top: 30px;
+        font-size: 30px;
+        color: #EBC58C;
         font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: 200;}
+        
+        .cafesdivs{display: inline-block;
+        margin-right: 200px;
+        margin-top: 30px;}
+        
+        .nomecafe{font-size: 25px;
+        color: #EBC58C;
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 200;
+        }
+        
+        .alinharcafesdivs{display: inline-block;
+                position: relative;
+                left: 275px;
+                top: 70px;}
+        
+        .imagemcafe{width: 100%;}
 
+#produtos{
+    width: 100%;
+    background-image:url(Imagens/produtos.png);
+    height:500px;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.cafes{height: 542px;
-        width: 98vw;
-        background-image: url(Imagens/cafes.png);
-        background-size:cover;
-        display: inline-block;}
-
-.nossoscafes{background-color: #5d3723a9;
-width: 343px;
-height: 53px;
-padding-top: 18px;
-text-align: center;
-position: relative;
-left: 38%;
-margin-top: 30px;
-font-size: 30px;
-color: #EBC58C;
-font-family: 'Open Sans', sans-serif;
-font-style: italic;
-font-weight: 200;}
-
-.cafesdivs{display: inline-block;
-margin-right: 200px;
-margin-top: 30px;}
-
-.nomecafe{font-size: 25px;
-color: #EBC58C;
-text-align: center;
-font-family: 'Open Sans', sans-serif;
-font-weight: 200;
-}
-
-.alinharcafesdivs{display: inline-block;
-        position: relative;
-left: 275px;}
-
-.imagemcafe{width: 100%;}
-
-.produtos{
-        height:500px;
-        width: 98vw;
-        background-image:url(Imagens/produtos.png);
-        background-size:cover;
-        display: inline-block;}
 .divproduto{
-        width: 500px;
-        height: 300px;
-        background-color:#EBC58C;
-        border: 20px solid #5D3723;
-        display: inline-block;
-        position: relative;
-        left: 100px;
-        top: 30px
+    width: 500px;
+    height: 300px;
+    background-color:#EBC58C;
+    border: 20px solid #5D3723;
+    display: inline-block;
+    position: relative;
+    left: 100px;
+    top: 30px
 }
 
 #h2produto{
-        text-align: center;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
+    position: relative;
+    top: 20px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 
 }
 
 #botaoesq{
-        display: inline-block;
-        position: relative;
-        right: 31px;
-        top: 20px;}
+    display: inline-block;
+    position: relative;
+    right: 31px;
+    top: 35px;}
 
 #caneca{display: inline-block;
-        position: relative;
-        left: 12px;
-        top: 10px;}
+    position: relative;
+    left: 12px;
+    top: 35px;}
 
 #botaodir{display: inline-block;
-        position: relative;
-        left:73px;
-        top: 20px;}
+    position: relative;
+    left:73px;
+    top: 35px;}
 
 #descricaoprodutos{
-        display: inline-block;
-        position: relative;
-        left: 400px;
-        bottom: 5px;
-        height: 500px;
-        width: 500px;
+    display: inline-block;
+    position: relative;
+    left: 400px;
+    bottom: 5px;
+    height: 500px;
+    width: 500px;
+    top: 10px;
 }
 
 #pcdt{
-        color: #20130C;
-        text-align: center;
-        font-size: 45px;
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
+    color: #20130C;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
 font-weight: 200;}
 
 #descricaopcdt{
-        color: black;
-        width:360px ;
-        text-align: justify;
-        font-size: 23px;
-        position: relative;
-        left: 10%;
-        top: 20px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
+    color: black;
+    width:360px ;
+    text-align: justify;
+    font-size: 23px;
+    position: relative;
+    left: 10%;
+    top: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 #botaoprodutos{
-        background-color: #5D3723;
-        border-radius: 50px;
-        width: 300px;
-        height: 70px;
-        position: relative;
-        top: 55px;
-        left: 95px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 300;
+    background-color: #5D3723;
+    border-radius: 50px;
+    width: 300px;
+    height: 70px;
+    position: relative;
+    top: 120px;
+    left: 95px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
 }
 
 #pbotao{position: relative;
-        font-size: 20px;
-        padding: 20px;
-        left: 7%;
-        bottom: 20%;
-        color:#CDAC79;
+    font-size: 20px;
+    padding: 20px;
+    left: 7%;
+    bottom: 20%;
+    color:#CDAC79;
 }
 
 #unidades{
-        background-image: url(Imagens/unidades.png);
-        background-size: cover;
-        display: inline-block;
-        width: 98vw;
-        height: 700px;}
+    width: 100%;
+    background-image:url(Imagens/unidades.png);
+    height:700px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 #unidadesh1{
-        text-align: center;
-        font-size: 60px;
-        color: #3B2316;
-        font-family: 'Open Sans', sans-serif;
-        font-style: italic;
-        font-weight: 200;}
+    position: relative;
+    top: 15px;
+    text-align: center;
+    font-size: 60px;
+    color: #3B2316;
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+    font-weight: 200;}
 
 #alinhardivsunidades{
-        position: relative;
-        left: 6%;
-        top: 5%;
-        width: 800vw;
+    position: relative;
+    left: 0%;
+    margin-left: 7%;
+    top: 15%;
+    
 }
 
 .unidadesdivs{
-        display: inline-block;
-        margin: 0px 20px;
+    display: inline-block;
+    margin: 0px 20px;
 }
 
 .h2divunidades{
-        text-align: center;
-        color: black;
-        margin-bottom: 50px;
-        font-family: 'Open Sans', sans-serif;
-font-weight: 400;}
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;}
 
 .tamanhoimg{ width: 75%;}
 
 .alinharimagem{
-        text-align: center;
+    text-align: center;
 }
 
 .alinhardescricao{
-        text-align: center;
-        font-size: 12px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 
 footer{
-        background-color: #5D3723;
-        height: 300px;
-        width: 98vw;
+    background-color: #5D3723;
+    height: 300px;
+    width: 100%;
+    margin-bottom: 0%;
 }
 
 #logofooter{
-        display: inline-block;
-        position: relative;
-        left: 5%;
-        top: 0%;
+    display: inline-block;
+    position: relative;
+    left: 5%;
+    top: 0%;
 }
 
 #logofooterimg{
-        width: 100%;
+    width: 100%;
 }
 
 #nosacompanhe{position: relative;
@@ -283,35 +294,18 @@ bottom: 40%;
 width: 300px;}
 
 #nossasredes{text-align: center;
-        color: #EBC58C;
-        width: 300px;
-        font-family: 'Open Sans', sans-serif;
-        font-weight: 400;
-        font-size: 13px;
+    color: #EBC58C;
+    width: 300px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
 }
 
 .tamanhoimgfooter{width: 20%;}
 
 #alinharfotos{text-align: center;
-        
+    position: relative;
+    top: 10px;
+    
 
 }
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-    
-
-
-
-
