@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ruda:wght@400;500;600;700;800;900&display=swap');
+
+
+
 body{width: 98vw;
 margin: 0px 0px 0px 0px;}
 
@@ -30,7 +37,8 @@ nav > div > p{
         display: inline-block;
         margin: 1% 5% 0% 5%;
         color: #CDAC79;
-        font-size: 16px;}
+        font-size: 16px;
+        font-family: 'Open Sans', sans-serif;}
 
 
 
@@ -60,9 +68,10 @@ nav > div{margin: 0px;}
         margin: 30px 0px 20px 100px;
         background-color: #CDAC79;
         padding: 15px;
-        border-color: #864A2B;
+        border-color: #57301d;
         border-width: 16px;
-border-style: solid;}
+        border-style: solid;
+        font-family: 'Ruda', sans-serif;}
 
 .quemsomostitulo{
         font-size: 32.98px;
@@ -71,8 +80,9 @@ border-style: solid;}
 }
 
 .quemsomosparagrafo{
-        font-size: 19px;
+        font-size: 16px;
         color: black;
+        font-family: 'Open Sans', sans-serif;
 
 }
 
@@ -82,7 +92,7 @@ border-style: solid;}
         background-size:cover;
         display: inline-block;}
 
-.nossoscafes{background-color: #5D3723;
+.nossoscafes{background-color: #5d3723a9;
 width: 343px;
 height: 53px;
 padding-top: 18px;
@@ -91,7 +101,10 @@ position: relative;
 left: 38%;
 margin-top: 30px;
 font-size: 30px;
-color: #EBC58C;}
+color: #EBC58C;
+font-family: 'Open Sans', sans-serif;
+font-style: italic;
+font-weight: 200;}
 
 .cafesdivs{display: inline-block;
 margin-right: 200px;
@@ -100,13 +113,191 @@ margin-top: 30px;}
 .nomecafe{font-size: 25px;
 color: #EBC58C;
 text-align: center;
+font-family: 'Open Sans', sans-serif;
+font-weight: 200;
 }
 
 .alinharcafesdivs{display: inline-block;
         position: relative;
-left: 320px;}
+left: 275px;}
 
 .imagemcafe{width: 100%;}
+
+.produtos{
+        height:500px;
+        width: 98vw;
+        background-image:url(Imagens/produtos.png);
+        background-size:cover;
+        display: inline-block;}
+.divproduto{
+        width: 500px;
+        height: 300px;
+        background-color:#EBC58C;
+        border: 20px solid #5D3723;
+        display: inline-block;
+        position: relative;
+        left: 100px;
+        top: 30px
+}
+
+#h2produto{
+        text-align: center;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+
+}
+
+#botaoesq{
+        display: inline-block;
+        position: relative;
+        right: 31px;
+        top: 20px;}
+
+#caneca{display: inline-block;
+        position: relative;
+        left: 12px;
+        top: 10px;}
+
+#botaodir{display: inline-block;
+        position: relative;
+        left:73px;
+        top: 20px;}
+
+#descricaoprodutos{
+        display: inline-block;
+        position: relative;
+        left: 400px;
+        bottom: 5px;
+        height: 500px;
+        width: 500px;
+}
+
+#pcdt{
+        color: #20130C;
+        text-align: center;
+        font-size: 45px;
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+font-weight: 200;}
+
+#descricaopcdt{
+        color: black;
+        width:360px ;
+        text-align: justify;
+        font-size: 23px;
+        position: relative;
+        left: 10%;
+        top: 20px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+}
+
+#botaoprodutos{
+        background-color: #5D3723;
+        border-radius: 50px;
+        width: 300px;
+        height: 70px;
+        position: relative;
+        top: 55px;
+        left: 95px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+}
+
+#pbotao{position: relative;
+        font-size: 20px;
+        padding: 20px;
+        left: 7%;
+        bottom: 20%;
+        color:#CDAC79;
+}
+
+#unidades{
+        background-image: url(Imagens/unidades.png);
+        background-size: cover;
+        display: inline-block;
+        width: 98vw;
+        height: 700px;}
+
+#unidadesh1{
+        text-align: center;
+        font-size: 60px;
+        color: #3B2316;
+        font-family: 'Open Sans', sans-serif;
+        font-style: italic;
+        font-weight: 200;}
+
+#alinhardivsunidades{
+        position: relative;
+        left: 6%;
+        top: 5%;
+        width: 800vw;
+}
+
+.unidadesdivs{
+        display: inline-block;
+        margin: 0px 20px;
+}
+
+.h2divunidades{
+        text-align: center;
+        color: black;
+        margin-bottom: 50px;
+        font-family: 'Open Sans', sans-serif;
+font-weight: 400;}
+
+.tamanhoimg{ width: 75%;}
+
+.alinharimagem{
+        text-align: center;
+}
+
+.alinhardescricao{
+        text-align: center;
+        font-size: 12px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+}
+
+footer{
+        background-color: #5D3723;
+        height: 300px;
+        width: 98vw;
+}
+
+#logofooter{
+        display: inline-block;
+        position: relative;
+        left: 5%;
+        top: 0%;
+}
+
+#logofooterimg{
+        width: 100%;
+}
+
+#nosacompanhe{position: relative;
+left: 50%;
+display: inline-block;
+bottom: 40%;
+width: 300px;}
+
+#nossasredes{text-align: center;
+        color: #EBC58C;
+        width: 300px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+        font-size: 13px;
+}
+
+.tamanhoimgfooter{width: 20%;}
+
+#alinharfotos{text-align: center;
+        
+
+}
+
+
 
 
 
